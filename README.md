@@ -8,10 +8,7 @@ This project demonstrates the **SOLID principles** in object-oriented design usi
 ```
 EmployeeManagement/ │ ├── Models/ # SRP: Core data structure (Employee) │ └── Employee.cs │ ├── Services/ # SRP & DIP: Business logic services │ ├── SalaryCalculator.cs │ ├── ReportGenerator.cs │ └── HRService.cs │ ├── Types/ # OCP: Abstract and base employee types │ ├── EmployeeBase.cs │ ├── FullTimeEmployee.cs │ └── ContractEmployee.cs │ ├── Liskov/ # LSP: Derived employee types │ ├── Manager.cs │ └── Intern.cs │ ├── Interfaces/ # ISP: Small, focused interfaces │ ├── IWork.cs │ └── IManage.cs │ ├── Workers/ # ISP: Role-specific implementations │ ├── Developer.cs │ └── TeamLead.cs │ ├── Notifications/ # DIP: Notification abstraction and implementations │ ├── INotifier.cs │ └── EmailNotifier.cs │ ├── Program.cs # Entry point demonstrating all principles └── EmployeeManagement.csproj
 ```
-```
 ![image](https://github.com/user-attachments/assets/f58d5930-a98a-4293-b150-565867be10f5)
-
-```
 
 ---
 
