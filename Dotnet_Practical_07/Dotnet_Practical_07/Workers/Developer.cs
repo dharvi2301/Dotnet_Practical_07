@@ -9,6 +9,9 @@ namespace ConsoleApp1.Workers
 {
     public class Developer:IWork
     {
+        /// <summary>
+        /// Simulates developer's work.
+        /// </summary>
         public void Work() => Console.WriteLine("ISP>>>> This is Developer Work.");
     }
 }

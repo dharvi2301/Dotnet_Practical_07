@@ -8,6 +8,9 @@ namespace ConsoleApp1.Types
 {
     public class ContractEmployee:EmployeeBase
     {
+        /// <summary>
+        /// Returns fixed salary for a contract employee.
+        /// </summary>
         public override double GetSalary() => 30000;
     }
 }

@@ -8,6 +8,9 @@ namespace ConsoleApp1
 {
     public interface IWork
     {
+        /// <summary>
+        /// Defines work behavior.
+        /// </summary>
         void Work();
     }
 }

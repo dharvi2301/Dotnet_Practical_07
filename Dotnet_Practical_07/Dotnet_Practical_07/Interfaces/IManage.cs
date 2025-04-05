@@ -8,6 +8,9 @@ namespace ConsoleApp1.Interfaces
 {
     public interface IManage
     {
+        /// <summary>
+        /// Defines management behavior.
+        /// </summary>
         void Manage();
     }
 }

@@ -9,6 +9,9 @@ namespace ConsoleApp1.Liskov
 {
     public class Manager : EmployeeBase
     {
+        /// <summary>
+        /// Returns fixed salary for a manager.
+        /// </summary>
         public override double GetSalary() => 70000;
     }
 

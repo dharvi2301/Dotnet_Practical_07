@@ -9,6 +9,9 @@ namespace ConsoleApp1.Types
     public abstract class EmployeeBase
     {
         public string Name { get; set; }
+        /// <summary>
+        /// Abstract method to get salary. Must be implemented by derived classes.
+        /// </summary>
         public abstract double GetSalary();
     }
 }

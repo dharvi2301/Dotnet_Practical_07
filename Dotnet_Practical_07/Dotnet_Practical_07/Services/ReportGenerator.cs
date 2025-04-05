@@ -9,6 +9,9 @@ namespace ConsoleApp1.Services
 {
     public class ReportGenerator
     {
+        /// <summary>
+        /// Generates a report string for the given employee.
+        /// </summary>
         public string GenerateReport(Employee employee)
         {
             return $"SRP Example>>>> Name:{employee.Name} ,Position:{employee.Position}, Salary:{employee.Salary}";

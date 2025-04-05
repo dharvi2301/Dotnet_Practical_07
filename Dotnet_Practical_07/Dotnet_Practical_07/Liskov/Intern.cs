@@ -9,6 +9,9 @@ namespace ConsoleApp1.Liskov
 {
     public class Intern : EmployeeBase
     {
+        /// <summary>
+        /// Returns fixed salary for an intern.
+        /// </summary>
         public override double GetSalary() => 10000;
     }
 }

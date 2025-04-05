@@ -9,7 +9,13 @@ namespace ConsoleApp1.Workers
 {
     public class TeamLead:IWork,IManage
     {
+        /// <summary>
+        /// Simulates team lead's work.
+        /// </summary>
         public void Work() => Console.WriteLine("ISP>>>> Working in Team");
+        /// <summary>
+        /// Simulates team lead's management responsibilities.
+        /// </summary>
         public void Manage() => Console.WriteLine("ISP>>>> Managing the task");
     }
 }

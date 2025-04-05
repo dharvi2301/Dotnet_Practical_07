@@ -15,6 +15,9 @@ namespace ConsoleApp1
 {
     public class Program
     {
+        /// <summary>
+        /// Entry point for the application. Demonstrates each SOLID principle in action.
+        /// </summary>
         static void Main(string[] args)
         {
             // SRP Example
